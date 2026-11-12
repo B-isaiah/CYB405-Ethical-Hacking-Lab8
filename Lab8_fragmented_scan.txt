@@ -1,0 +1,11 @@
+# Nmap 7.95 scan initiated Tue Nov 10 18:26:49 2026 as: /usr/lib/nmap/nmap -sS --mtu 24 -p 5985,445,3389 -oN /home/craked/CYB405/Lab8_fragmented_scan.txt 192.168.58.105
+Nmap scan report for 192.168.58.105
+Host is up (0.0015s latency).
+
+PORT     STATE    SERVICE
+445/tcp  filtered microsoft-ds
+3389/tcp filtered ms-wbt-server
+5985/tcp open     wsman
+MAC Address: 08:00:27:2F:06:4E (PCS Systemtechnik/Oracle VirtualBox virtual NIC)
+
+# Nmap done at Tue Nov 10 18:27:03 2026 -- 1 IP address (1 host up) scanned in 14.37 seconds

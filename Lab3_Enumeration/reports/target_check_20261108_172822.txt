@@ -1,0 +1,3 @@
+
+--- STDERR ---
+ping: connect: Network is unreachable

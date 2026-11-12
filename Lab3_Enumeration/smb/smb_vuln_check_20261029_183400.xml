@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.95 scan initiated Thu Oct 29 18:36:57 2026 as: /usr/lib/nmap/nmap -&#45;privileged -p 139,445 -&#45;script smb-vuln-ms17-010 -oA /home/craked/CYB405/Lab3_Enumeration/smb/smb_vuln_check_20261029_183400 192.168.58.104 -->
+<nmaprun scanner="nmap" args="/usr/lib/nmap/nmap -&#45;privileged -p 139,445 -&#45;script smb-vuln-ms17-010 -oA /home/craked/CYB405/Lab3_Enumeration/smb/smb_vuln_check_20261029_183400 192.168.58.104" start="1793313417" startstr="Thu Oct 29 18:36:57 2026" version="7.95" xmloutputversion="1.05">
+<scaninfo type="syn" protocol="tcp" numservices="2" services="139,445"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<hosthint><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.58.104" addrtype="ipv4"/>
+<address addr="08:00:27:ED:AB:B4" addrtype="mac" vendor="PCS Systemtechnik/Oracle VirtualBox virtual NIC"/>
+<hostnames>
+</hostnames>
+</hosthint>
+<host starttime="1793313431" endtime="1793313431"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.58.104" addrtype="ipv4"/>
+<address addr="08:00:27:ED:AB:B4" addrtype="mac" vendor="PCS Systemtechnik/Oracle VirtualBox virtual NIC"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="139"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="netbios-ssn" method="table" conf="3"/></port>
+<port protocol="tcp" portid="445"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="microsoft-ds" method="table" conf="3"/></port>
+</ports>
+<times srtt="1016" rttvar="3059" to="100000"/>
+</host>
+<runstats><finished time="1793313431" timestr="Thu Oct 29 18:37:11 2026" summary="Nmap done at Thu Oct 29 18:37:11 2026; 1 IP address (1 host up) scanned in 13.29 seconds" elapsed="13.29" exit="success"/><hosts up="1" down="0" total="1"/>
+</runstats>
+</nmaprun>

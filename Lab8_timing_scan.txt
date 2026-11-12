@@ -1,0 +1,13 @@
+# Nmap 7.95 scan initiated Tue Nov 10 18:30:29 2026 as: /usr/lib/nmap/nmap -sS -sV -T2 -p 5985,445,3389 -oN /home/craked/CYB405/Lab8_timing_scan.txt 192.168.58.105
+Nmap scan report for 192.168.58.105
+Host is up (0.0026s latency).
+
+PORT     STATE    SERVICE       VERSION
+445/tcp  filtered microsoft-ds
+3389/tcp filtered ms-wbt-server
+5985/tcp open     http          Microsoft HTTPAPI httpd 2.0 (SSDP/UPnP)
+MAC Address: 08:00:27:2F:06:4E (PCS Systemtechnik/Oracle VirtualBox virtual NIC)
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Tue Nov 10 18:30:52 2026 -- 1 IP address (1 host up) scanned in 23.02 seconds

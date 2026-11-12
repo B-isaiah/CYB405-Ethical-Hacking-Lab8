@@ -1,0 +1,10 @@
+# Nmap 7.95 scan initiated Sun Nov  8 18:28:47 2026 as: /usr/lib/nmap/nmap --privileged -p 139,445 --script smb-vuln-ms17-010 -oA /home/craked/CYB405/Lab3_Enumeration/smb/smb_vuln_check_20261108_173303 192.168.58.104
+Nmap scan report for 192.168.58.104
+Host is up (0.0021s latency).
+
+PORT    STATE SERVICE
+139/tcp open  netbios-ssn
+445/tcp open  microsoft-ds
+MAC Address: 08:00:27:ED:AB:B4 (PCS Systemtechnik/Oracle VirtualBox virtual NIC)
+
+# Nmap done at Sun Nov  8 18:29:00 2026 -- 1 IP address (1 host up) scanned in 13.70 seconds

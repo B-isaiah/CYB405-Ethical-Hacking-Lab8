@@ -1,0 +1,4 @@
+# Nmap 7.95 scan initiated Sun Nov  8 18:28:47 2026 as: /usr/lib/nmap/nmap --privileged -p 139,445 --script smb-vuln-ms17-010 -oA /home/craked/CYB405/Lab3_Enumeration/smb/smb_vuln_check_20261108_173303 192.168.58.104
+Host: 192.168.58.104 ()	Status: Up
+Host: 192.168.58.104 ()	Ports: 139/open/tcp//netbios-ssn///, 445/open/tcp//microsoft-ds///
+# Nmap done at Sun Nov  8 18:29:00 2026 -- 1 IP address (1 host up) scanned in 13.70 seconds

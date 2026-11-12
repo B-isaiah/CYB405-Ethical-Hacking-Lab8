@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.95 scan initiated Thu Oct 29 18:38:00 2026 as: /usr/lib/nmap/nmap -&#45;privileged -p 139,445 -&#45;script smb-enum-shares,smb-enum-users,smb-os-discovery,smb-protocols,smb-security-mode,smb2-security-mode -oA /home/craked/CYB405/Lab3_Enumeration/smb/smb_nmap_20261029_183400 192.168.58.104 -->
+<nmaprun scanner="nmap" args="/usr/lib/nmap/nmap -&#45;privileged -p 139,445 -&#45;script smb-enum-shares,smb-enum-users,smb-os-discovery,smb-protocols,smb-security-mode,smb2-security-mode -oA /home/craked/CYB405/Lab3_Enumeration/smb/smb_nmap_20261029_183400 192.168.58.104" start="1793313480" startstr="Thu Oct 29 18:38:00 2026" version="7.95" xmloutputversion="1.05">
+<scaninfo type="syn" protocol="tcp" numservices="2" services="139,445"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<hosthint><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.58.104" addrtype="ipv4"/>
+<address addr="08:00:27:ED:AB:B4" addrtype="mac" vendor="PCS Systemtechnik/Oracle VirtualBox virtual NIC"/>
+<hostnames>
+</hostnames>
+</hosthint>

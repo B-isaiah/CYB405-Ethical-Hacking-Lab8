@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    android:versionCode="1"
+    android:versionName="1.0"
+    android:compileSdkVersion="31"
+    android:compileSdkVersionCodename="12"
+    package="com.ctzlab.commentapp"
+    platformBuildVersionCode="31"
+    platformBuildVersionName="12">
+    <uses-sdk
+        android:minSdkVersion="26"
+        android:targetSdkVersion="31"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <application
+        android:theme="@style/AppTheme"
+        android:label="@string/app_name"
+        android:icon="@drawable/phone"
+        android:debuggable="true"
+        android:allowBackup="true"
+        android:supportsRtl="true"
+        android:extractNativeLibs="false"
+        android:fullBackupContent="true"
+        android:usesCleartextTraffic="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory">
+        <activity
+            android:name="com.ctzlab.commentapp.BaseUrlPickerActivity"
+            android:exported="true"/>
+        <activity
+            android:name="com.ctzlab.commentapp.CreateUserActivity"
+            android:exported="true"/>
+        <activity
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+            android:name="com.ctzlab.commentapp.SplashScreen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="com.ctzlab.commentapp.MainActivity"/>
+        <activity
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+            android:name="com.ctzlab.commentapp.LoginActivity"/>
+    </application>
+</manifest>
